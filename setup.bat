@@ -1,4 +1,5 @@
 @echo off
+cd /d "%~dp0"
 
 echo downloading requirements :)
 
@@ -26,3 +27,4 @@ powershell -command "Expand-Archive ffmpeg.zip -DestinationPath ."
 
 echo DONE! :) :) :) :) :)
 pause
+

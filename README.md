@@ -8,10 +8,11 @@ eh i guess just download vids with this
   <summary><h3>Setting up (Windows Only)</h3></summary>
   
 1. Download the ZIP from Github
-2. Right click the ZIP file then **Extract All**
-3. Open the folder
-4. Run **setup.bat** to install some stuff
-5. if you want delete **setup.bat**
+2. Right click the ZIP file → **Properties** → check **Unblock** → click **Apply**
+3. Right click the ZIP file then **Extract All**
+4. Open the folder
+5. Run **setup.bat** to install some stuff
+6. if you want delete **setup.bat**
 </details>
 
 <details>

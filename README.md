@@ -11,7 +11,7 @@ eh i guess just download vids with this
 2. Right click the ZIP file → **Properties** → check **Unblock** → click **Apply**
 3. Right click the ZIP file then **Extract All**
 4. Open the folder
-5. Run **setup.bat** to install some stuff
+5. Run **setup.bat** as **administrator** to install some stuff
 6. if you want delete **setup.bat**
 </details>
 

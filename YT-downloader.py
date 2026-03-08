@@ -14,7 +14,8 @@ ydl_opts = {
     "format": "bv*+ba/b",
     "outtmpl": output,
     "merge_output_format": "mp4",
-    "noplaylist": True
+    "noplaylist": True,
+    "ffmpeg_location": "ffmpeg"
 }
 
 try:
@@ -24,4 +25,5 @@ try:
 except Exception as e:
     print("Download failed")
     print(e)
+
 

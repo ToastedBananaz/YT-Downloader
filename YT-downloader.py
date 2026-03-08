@@ -11,9 +11,10 @@ output = os.path.join(desktop, f"{filename}.mp4")
 
 # some setting stuff idk
 ydl_opts = {
-    "format": "bestvideo+bestaudio/best",
+    "format": "bv*+ba/b",
     "outtmpl": output,
-    "merge_output_format": "mp4"
+    "merge_output_format": "mp4",
+    "noplaylist": True
 }
 
 try:
@@ -23,3 +24,4 @@ try:
 except Exception as e:
     print("Download failed")
     print(e)
+

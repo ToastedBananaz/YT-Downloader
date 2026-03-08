@@ -18,7 +18,7 @@ eh i guess just download vids with this
 <details>
   <summary><h3>Download</h3></summary>
 
-1. Run **start.bat**
+1. Run **start.bat** as administrator
 2. Enter the YouTube URL
 3. give a name
 4. The video will download to your Desktop :D

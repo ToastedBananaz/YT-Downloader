@@ -9,24 +9,11 @@ filename = input("Enter the output filename (no extension): ")
 desktop = os.path.join(os.path.expanduser("~"), "Desktop")
 output = os.path.join(desktop, f"{filename}.mp4")
 
-# ffmpeg.exe
-ffmpeg_path = None
-for root, dirs, files in os.walk(os.getcwd()):
-    if "ffmpeg.exe" in files:
-        ffmpeg_path = root
-        break
-
-if ffmpeg_path is None:
-    print("ffmpeg.exe not found in the project folder!")
-    exit(1)
-
-# some setting stuff idk
+#some install stuff :D
 ydl_opts = {
-    "format": "bv*+ba/b",
+    "format": "best",
     "outtmpl": output,
-    "merge_output_format": "mp4",
-    "noplaylist": True,
-    "ffmpeg_location": ffmpeg_path
+    "noplaylist": True
 }
 
 try:
